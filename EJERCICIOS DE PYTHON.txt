@@ -1,0 +1,15 @@
+ 1.-Ejercicio: Juego de Adivinanza de Números
+Escribe un programa en Python que haga lo siguiente:
+
+El programa seleccionará un número aleatorio entre 1 y 100 (puedes usar el módulo random para generar este número).
+El usuario tiene que adivinar el número.
+El programa le dará pistas al usuario:
+Si el número que ingresó es mayor que el número generado, el programa debe mostrar: "El número es menor".
+Si el número que ingresó es menor que el número generado, el programa debe mostrar: "El número es mayor".
+El usuario tiene un máximo de 5 intentos para adivinar el número.
+Si el usuario adivina el número dentro del límite de intentos, el programa debe mostrar un mensaje de éxito como: "¡Felicidades! Has adivinado el número."
+Si el usuario no adivina el número después de 5 intentos, el programa debe mostrar el número correcto y un mensaje como: "Lo siento, no has adivinado el número. Era [número]."
+Pistas:
+Utiliza un bucle while para darle al usuario varios intentos.
+Usa if, elif y else para las comparaciones y los mensajes.
+Utiliza el módulo random para generar un número aleatorio con random.randint(1, 100).
